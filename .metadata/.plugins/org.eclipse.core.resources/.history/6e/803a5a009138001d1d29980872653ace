@@ -1,0 +1,34 @@
+package listapessoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+
+	public static void main(String[] args) {
+
+		System.out.println("----Exercicio 4-----");
+		List<Pessoa> pessoas = new ArrayList<Pessoa>();
+
+		pessoas.add(new Pessoa("Joao", 15));
+		pessoas.add(new Pessoa("Leandro", 21));
+		pessoas.add(new Pessoa("Paulo", 17));
+		pessoas.add(new Pessoa("Jessica", 18));
+
+		for (Pessoa pessoa : pessoas) {
+			System.out.println(pessoa.Detalhes());
+		}
+
+		System.out.println("----Exercicio 5-----");
+		for (int i = 0; i < pessoas.size(); i++) {
+			Pessoa pessoa = pessoas.get(i);
+			if (pessoa.getIdade() < 18) {
+				pessoas.remove(pessoa);
+			}
+		}
+
+		System.out.println("----Exercicio 6-----");
+
+	}
+
+}

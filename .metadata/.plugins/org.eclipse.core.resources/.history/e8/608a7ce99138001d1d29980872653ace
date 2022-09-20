@@ -1,0 +1,12 @@
+package funcionario;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Gerente gerente = new Gerente();
+		Supervisor supervisor = new Supervisor();
+		Vendedor vendedor = new Vendedor();
+	}
+
+}

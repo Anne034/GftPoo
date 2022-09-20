@@ -1,0 +1,14 @@
+package veiculo;
+
+public class Veiculo {
+
+	private String Marca;
+	public String Modelo;
+	public String getMarca() {
+		return Marca;
+	}
+	public void setMarca(String marca) {
+		Marca = marca;
+	}
+	
+}

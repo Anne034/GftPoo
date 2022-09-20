@@ -1,0 +1,6 @@
+package veiculo;
+
+public class Veiculo {
+
+	public String Marca;
+}

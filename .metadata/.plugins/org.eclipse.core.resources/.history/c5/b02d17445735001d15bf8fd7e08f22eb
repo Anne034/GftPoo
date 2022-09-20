@@ -1,0 +1,13 @@
+package testegft;
+
+public class Veiculo {
+	
+	 public static void Main() {
+		 
+		 System.out.println("gabriel gay ");
+	 }
+	 
+	 
+	
+
+}

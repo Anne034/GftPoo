@@ -1,0 +1,30 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LojaMain {
+
+	public static void main(String[] args) {
+
+		Livro l1 = new Livro("Harry Potter", 40, 50, "J.K.Rowling", "fantasia", 300);
+		Livro l2 = new Livro("Java POO", 20, 60, "GFT", "educativo", 500);
+		
+		VideoGame vg1 = new VideoGame("PS4",1800,100,"Sony","Slim",false);
+		VideoGame vg2 = new VideoGame("XBOX",1500,1000,"MS","One",true);
+		
+		List<Livro> livros = new ArrayList<Livro>();
+		livros.add(l1);
+		livros.add(l2);
+		
+		List<VideoGame> vgs = new ArrayList<VideoGame>();
+		vgs.add(vg1);
+		vgs.add(vg2);
+		
+		Loja americanas = new Loja("Americanas","1231123",livros,vgs);
+		
+		
+		
+	}
+
+}

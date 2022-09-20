@@ -1,0 +1,46 @@
+package model;
+
+public class LojaMain {
+	
+		private String Nome;
+		private String Cnpj;
+		
+	public static void main(String[] args) {
+		
+	private LojaMain ()
+			{
+		 
+			}
+			
+	public LojaMain(String nome, String cnpj)
+	{
+		Nome = nome;
+		Cnpj = cnpj;
+		
+	}		
+
+	
+	
+}
+		
+		//get e set
+		
+		public String getNome() {
+			return Nome;
+		}
+
+		public void setNome(String nome) {
+			Nome = nome;
+		}
+
+		public String getCnpj() {
+			return Cnpj;
+		}
+
+		public void setCnpj(String cnpj) {
+			Cnpj = cnpj;
+		}
+		
+			
+	}
+

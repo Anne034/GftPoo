@@ -1,0 +1,41 @@
+package model;
+
+public abstract class Produto {
+	
+	private String Nome;
+	private double Preco;
+	private int Qtd;
+	
+	
+	
+	public Produto()
+	{
+		
+	}
+	
+	public Produto(String nome, double preco, int qtd) {
+		Nome = nome;
+		Preco = preco;
+		Qtd = qtd;
+	}
+	
+	
+	
+	
+	
+	
+	
+	//get e set
+	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	
+
+	
+	
+	
+}

@@ -1,0 +1,11 @@
+package model;
+
+public class LojaMain {
+
+	public static void main(String[] args) {
+
+		Livro l1 = new Livro("Harry Potter", 40, 50, "J.K.Rowling", "fantasia", 300);
+		Livro l2 = new Livro("Java POO", 20, 60, "GFT", "educativo", 300);
+	}
+
+}

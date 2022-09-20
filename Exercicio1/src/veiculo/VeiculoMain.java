@@ -1,0 +1,37 @@
+package veiculo;
+
+public class VeiculoMain {
+
+	public static void main(String[] args) {
+		Veiculo ve = new Veiculo();
+		
+		System.out.println("Ligado: " + ve.isIsLigado());
+		System.out.println("Velocidade: " + ve.getVelocidade());
+		System.out.println("Combustivel: " + ve.getLitrosCombustivel());
+		
+		ve.ligar();
+		ve.acelerar();
+		ve.abastecer(40);
+		
+		System.out.println("Ligado: " + ve.isIsLigado());
+		System.out.println("Velocidade: " + ve.getVelocidade());
+		System.out.println("Combustivel: " + ve.getLitrosCombustivel());
+		
+		ve.desligar();
+		ve.acelerar();
+		ve.abastecer(40);
+		
+		System.out.println("Ligado: " + ve.isIsLigado());
+		System.out.println("Velocidade: " + ve.getVelocidade());
+		System.out.println("Combustivel: " + ve.getLitrosCombustivel());
+		
+		ve.frear();
+		ve.frear();
+		ve.frear();
+		ve.desligar();
+		
+		System.out.println("Ligado: " + ve.isIsLigado());
+		System.out.println("Velocidade: " + ve.getVelocidade());
+		System.out.println("Combustivel: " + ve.getLitrosCombustivel());
+	}
+}

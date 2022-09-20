@@ -1,0 +1,13 @@
+package model;
+
+public class LojaMain {
+
+	public static void main(String[] args) {
+		
+		public String Nome;
+		public String Cnpj;
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package model;
+
+public class LojaMain {
+
+	public static void main(String[] args) {
+
+		Livro l1 = new Livro("Harry Potter", 40, 50, "J.K.Rowling", "fantasia", 300);
+		Livro l2 = new Livro("Java POO", 20, 60, "GFT", "educativo", 500);
+		
+		VideoGame vg1 = new VideoGame("PS4",1800,100,"Sony","Slim",false);
+		VideoGame vg2 = new VideoGame("XBOX",1500,1000,"MS","One",true);
+	}
+
+}

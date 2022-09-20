@@ -1,0 +1,33 @@
+package personagem;
+
+import java.util.List;
+import java.util.Random;
+
+public class Guerreiro extends Personagem {
+	
+	private List<String> Habilidade;
+
+	
+	@Override
+	public void LvlUp()
+	{
+		Vida++;
+		Forca++;
+		super.LvlUp();
+	}
+	
+	public int Attack()
+	{
+		 Random gerador = new Random();
+		 return (Inteligencia * level) + gerador.nextInt(300);
+	}
+	
+	public List<String> getHabilidade() {
+		return Habilidade;
+	}
+
+	public void setHabilidade(List<String> habilidade) {
+		Habilidade = habilidade;
+	}
+
+}

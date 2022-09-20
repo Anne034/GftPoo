@@ -1,0 +1,35 @@
+package listapessoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+
+	public static void main(String[] args) {
+
+		System.out.println("----Exercicio 4-----");
+		List<Pessoa> list = new ArrayList<Pessoa>();
+
+		list.add(new Pessoa("Joao", 15));
+		list.add(new Pessoa("Leandro", 21));
+		list.add(new Pessoa("Paulo", 17));
+		list.add(new Pessoa("Jessica", 18));
+
+		for (Pessoa pessoa : list) {
+			System.out.println(pessoa.Detalhes());
+		}
+
+		System.out.println("----Exercicio 5-----");
+		for (int i = 0; i < list.size(); i++) {
+			Pessoa pessoa = list.get(i);
+			if(pessoa.getIdade() < 18)
+			{
+				
+			}
+		}
+
+		System.out.println("----Exercicio 6-----");
+
+	}
+
+}

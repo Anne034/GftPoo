@@ -1,0 +1,28 @@
+package listapessoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		
+		System.out.println("----Exercicio 4-----");
+		List<Pessoa> list = new ArrayList<Pessoa>();
+
+		list.add(new Pessoa("Joao", 15));
+		list.add(new Pessoa("Leandro", 20));
+		list.add(new Pessoa("Marcos", 76));
+		list.add(new Pessoa("Jessica", 34));
+
+		for (Pessoa pessoa : list) {
+			System.out.println(pessoa.Detalhes());
+		}
+
+		System.out.println("----Exercicio 6-----");
+
+		System.out.println("----Exercicio 6-----");
+
+	}
+
+}

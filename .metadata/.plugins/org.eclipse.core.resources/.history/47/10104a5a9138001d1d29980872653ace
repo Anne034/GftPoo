@@ -1,0 +1,17 @@
+package funcionario;
+
+public class Funcionario {
+	
+	private String Nome;
+	protected int Idade;
+	protected double Salario;
+	protected String getNome() {
+		return Nome;
+	}
+	protected void setNome(String nome) {
+		Nome = nome;
+	}
+	
+	
+
+}

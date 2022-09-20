@@ -1,0 +1,11 @@
+package funcionario;
+
+public class Funcionario {
+	
+	public String Nome;
+	public int Idade;
+	public double Salario;
+	
+	
+
+}

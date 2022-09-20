@@ -1,0 +1,43 @@
+package model;
+
+public class Loja {
+	
+	private String Nome;
+	private String Cnpj;
+	private List<Livro> Livros;
+
+	public Loja ()
+	{		
+	}
+	
+	public Loja (String nome, String cnpj){
+	
+		Nome = nome;
+		Cnpj = cnpj;
+	}
+	
+	public void ListaLivros()
+	{
+		
+	}
+	
+//Get e set
+
+	private String getNome() {
+		return Nome;
+	}
+	private void setNome(String nome) {
+		Nome = nome;
+	}
+	
+	
+	private String getCnpj() {
+		return Cnpj;
+	}
+	private void setCnpj(String cnpj) {
+		Cnpj = cnpj;
+	}
+		
+		
+	
+}

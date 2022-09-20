@@ -1,0 +1,69 @@
+package model;
+
+public class Livro extends Produto implements Imposto {
+	
+	private String Autor;
+	private String Tema;
+	private int Quantpag;
+	private boolean IsUsado;
+	
+	
+	
+	public Livro()
+	{
+		
+	}
+	
+	
+	@Override
+	public double calculaImposto() {
+	
+		return 0;
+	}
+	
+	
+	
+	
+	
+	
+	//getters and setters
+	
+	public String getAutor() {
+		return Autor;
+	}
+	public void setAutor(String autor) {
+		Autor = autor;
+	}
+	
+	public String getTema() {
+		return Tema;
+	}
+	
+	public void setTema(String tema) {
+		Tema = tema;
+	}
+	
+	public int getQuantpag() {
+		return Quantpag;
+	}
+	
+	public void setQuantpag(int quantpag) {
+		Quantpag = quantpag;
+	}
+	
+	public boolean isIsUsado() {
+		return IsUsado;
+	}
+	
+	public void setIsUsado(boolean isUsado) {
+		IsUsado = isUsado;
+	}
+
+	
+	
+	
+
+	
+	
+	
+}

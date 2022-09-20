@@ -1,0 +1,27 @@
+package listapessoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+
+	public static void main(String[] args) {
+
+		List<Pessoa> list = new ArrayList<Pessoa>();
+
+		list.add(new Pessoa("Joao", 15));
+		list.add(new Pessoa("Leandro", 20));
+		list.add(new Pessoa("Marcos", 76));
+		list.add(new Pessoa("Jessica", 34));
+
+		for (Pessoa pessoa : list) {
+			System.out.println(pessoa.Detalhes());
+		}
+
+		// list.remove if -18
+
+		System.out.println("----Exercicio 6-----");
+
+	}
+
+}

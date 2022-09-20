@@ -1,0 +1,9 @@
+package model;
+
+public class VideoGame {
+
+	public String marca;
+	public String modelo;
+	public boolean IsUsado;
+	
+}

@@ -1,0 +1,25 @@
+package personagem;
+
+import java.util.List;
+
+public class Guerreiro extends Personagem {
+	
+	private List<String> Habilidade;
+
+	
+	@Override
+	public void LvlUp()
+	{
+		
+	}
+	
+	
+	public List<String> getHabilidade() {
+		return Habilidade;
+	}
+
+	public void setHabilidade(List<String> habilidade) {
+		Habilidade = habilidade;
+	}
+
+}

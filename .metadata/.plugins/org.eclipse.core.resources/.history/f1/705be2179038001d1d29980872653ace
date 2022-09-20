@@ -1,0 +1,7 @@
+package listapessoa;
+
+public class Pessoa {
+
+	private String Nome;
+	private int Idade;
+}

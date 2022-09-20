@@ -1,0 +1,119 @@
+package veiculo;
+
+public class Veiculo {
+
+	private String Marca;
+	private String Modelo;
+	private String Placa;
+	private String cor;
+	private float Km;
+	private boolean IsLigado;
+	private int LitrosCombustivel;
+	private int Velocidade;
+	private double Preco;
+	
+	//methods
+	public void acelerar()
+	{
+		Set
+	}
+	public void abastecer()
+	{
+		
+	}
+	public void frear()
+	{
+		
+	}
+	
+	public void pintar()
+	{
+		
+	}
+	public void ligar()
+	{
+		
+	}
+	public void desligar()
+	{
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	//getterss and setters
+	
+	public String getMarca() {
+		return Marca;
+	}
+	public void setMarca(String marca) {
+		Marca = marca;
+	}
+	public String getModelo() {
+		return Modelo;
+	}
+	public void setModelo(String modelo) {
+		Modelo = modelo;
+	}
+	
+	private String getPlaca() {
+		return Placa;
+	}
+	private void setPlaca(String placa) {
+		Placa = placa;
+	}
+	
+	private String getCor() {
+		return cor;
+	}
+	private void setCor(String cor) {
+		this.cor = cor;
+		
+	}
+	private float getKm() {
+		return Km;
+	}
+	private void setKm(float km) {
+		Km = km;
+	}
+	private boolean isIsLigado() {
+		return IsLigado;
+	}
+	private void setIsLigado(boolean isLigado) {
+		IsLigado = isLigado;
+	}
+	private int getLitrosCombustivel() {
+		return LitrosCombustivel;
+	}
+	private void setLitrosCombustivel(int litrosCombustivel) {
+		LitrosCombustivel = litrosCombustivel;
+	}
+	private double getPreco() {
+		return Preco;
+	}
+	private void setPreco(double preco) {
+		Preco = preco;
+	}
+	private int getVelocidade() {
+		return Velocidade;
+	}
+	private void setVelocidade(int velocidade) {
+		Velocidade = velocidade;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

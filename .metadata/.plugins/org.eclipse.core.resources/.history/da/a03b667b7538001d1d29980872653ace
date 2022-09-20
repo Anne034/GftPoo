@@ -1,0 +1,15 @@
+package model;
+
+public class LojaMain {
+	
+		public String Nome;
+		public String Cnpj;
+		
+		public static void main(String[] args) {
+		
+			
+		}
+		
+
+	}
+

@@ -1,0 +1,30 @@
+package personagem;
+
+import java.util.List;
+
+public class Mago extends Personagem {
+
+	private List<String> Magia;
+	
+	@Override
+	public void LvlUp()
+	{
+		Mana++;
+		Inteligencia++;
+		super.LvlUp();
+	}
+	
+	public void Attack()
+	{
+		
+	}
+
+	//Getters and Setters
+	public List<String> getMagia() {
+		return Magia;
+	}
+
+	public void setMagia(List<String> magia) {
+		Magia = magia;
+	}
+}

@@ -1,0 +1,57 @@
+package model;
+
+public abstract class Produto {
+	
+	protected String Nome;
+	private double Preco;
+	private int Qtd;
+	
+	
+	
+	public Produto()
+	{
+		
+	}
+	
+	public Produto(String nome, double preco, int qtd) {
+		Nome = nome;
+		setPreco(preco);
+		setQtd(qtd);
+	}
+	
+	
+	
+	
+	
+	
+	
+	//get e set
+	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+
+	protected double getPreco() {
+		return Preco;
+	}
+
+	protected void setPreco(double preco) {
+		Preco = preco;
+	}
+
+	protected int getQtd() {
+		return Qtd;
+	}
+
+	protected void setQtd(int qtd) {
+		Qtd = qtd;
+	}
+	
+
+	
+	
+	
+}
